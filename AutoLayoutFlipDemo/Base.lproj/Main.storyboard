@@ -22,12 +22,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRj-bu-VbI">
-                                <rect key="frame" x="278" y="260" width="45" height="79"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="66"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAF-pg-beD">
                                 <rect key="frame" x="285" y="420" width="30" height="30"/>
                                 <state key="normal" title="flip">
@@ -42,15 +36,12 @@
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="UAF-pg-beD" secondAttribute="centerX" id="0OE-Jy-1yN"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UAF-pg-beD" secondAttribute="bottom" constant="150" id="Fhz-9e-PS8"/>
-                            <constraint firstAttribute="centerY" secondItem="TRj-bu-VbI" secondAttribute="centerY" constant="0.5" id="QIQ-fo-BuT"/>
                             <constraint firstAttribute="centerX" secondItem="ytC-Sv-VrW" secondAttribute="centerX" id="ZHM-Dc-lEH"/>
                             <constraint firstAttribute="centerY" secondItem="ytC-Sv-VrW" secondAttribute="centerY" constant="0.5" id="uq4-31-MzN"/>
-                            <constraint firstAttribute="centerX" secondItem="TRj-bu-VbI" secondAttribute="centerX" constant="-0.5" id="wF4-h6-TdY"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="viewA" destination="ytC-Sv-VrW" id="LCA-rB-m35"/>
-                        <outlet property="viewB" destination="TRj-bu-VbI" id="cJH-Rc-zMd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
